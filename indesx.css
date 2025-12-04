@@ -575,14 +575,14 @@ button, .buttonpri{
   background: #ffffff;
 }
 
-/* Columns layout */
+
 .footer-columns {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
 }
 
-/* Each column */
+
 .footer-col {
   min-width: 180px;
   display: flex;
@@ -606,7 +606,7 @@ button, .buttonpri{
   color: #000;
 }
 
-/* Divider line */
+
 .footer-line {
   margin: 40px 0;
   border: none;
@@ -614,7 +614,7 @@ button, .buttonpri{
   background: #e0e0e0;
 }
 
-/* Social icons (placeholder circles) */
+
 .footer-social {
   display: flex;
   gap: 20px;
@@ -626,7 +626,7 @@ button, .buttonpri{
   cursor: pointer;
 }
 
-/* Bottom links */
+
 .footer-bottom {
   display: flex;
   flex-direction: column;
@@ -643,20 +643,12 @@ button, .buttonpri{
   text-decoration: underline;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .footer {
-    padding: 40px 30px;
-  }
-  .footer-columns {
-    gap: 40px;
-  }
-}
+
 .layout-container {
-  /* max-width: 1440px; */
+  
   margin: 0 auto;
-  padding: 10px 125px;   /* match top section padding */
-}
+  padding: 10px 125px;  
+} 
 .footer-bottom p{
     margin-top: 50px;
     color: gray;
